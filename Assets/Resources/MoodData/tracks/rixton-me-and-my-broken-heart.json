@@ -1,0 +1,269 @@
+{
+  "track_id": "rixton-me-and-my-broken-heart",
+  "audio_file": "Rixton - Me and My Broken Heart.mp3",
+  "track_info": {
+    "name": "Me and My Broken Heart",
+    "artist": "Rixton",
+    "album_art": "MoodData/art/rixton-me-and-my-broken-heart",
+    "duration_ms": 194000
+  },
+  "mood": {
+    "primary": "bittersweet",
+    "secondary": "pop-dramatic",
+    "tags": [
+      "vulnerable",
+      "pop-dramatic",
+      "introspective",
+      "rhythmic",
+      "longing"
+    ],
+    "color_palette": [
+      "#2E1A47",
+      "#8A2BE2",
+      "#FF6B6B",
+      "#FFD700"
+    ],
+    "atmosphere": "shattered velvet dusk",
+    "emotional_tone": "melancholy",
+    "energy_level": "medium",
+    "color_reasoning": "Deep royal purples represent the 'dark' emotional depth of the lyrics, while vibrant reds and piercing gold accents signify the 'broken heart' and the sharp, rhythmic pulse of the song's pop production.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 240,
+        "text": "All I need is a little love in my life"
+      },
+      {
+        "time_ms": 3100,
+        "text": "All I need is a little love in the dark"
+      },
+      {
+        "time_ms": 6280,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 9650,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 11590,
+        "text": "I need a little loving tonight"
+      },
+      {
+        "time_ms": 13930,
+        "text": "Hold me so I'm not falling apart"
+      },
+      {
+        "time_ms": 17180,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 20410,
+        "text": "Me and my broken heart, yeah"
+      },
+      {
+        "time_ms": 24760,
+        "text": "Shotgun, aimed at my heart, you got one"
+      },
+      {
+        "time_ms": 28750,
+        "text": "Tear me apart and then some"
+      },
+      {
+        "time_ms": 31660,
+        "text": "How do we call this love? (whoa-oh-oh-oh)"
+      },
+      {
+        "time_ms": 35920,
+        "text": "I tried, to run away but your eyes"
+      },
+      {
+        "time_ms": 39860,
+        "text": "Tell me to stay, oh why"
+      },
+      {
+        "time_ms": 42630,
+        "text": "Why do we call this love? (whoa-oh-oh-oh)"
+      },
+      {
+        "time_ms": 47720,
+        "text": "It seems like we've been losing control"
+      },
+      {
+        "time_ms": 52940,
+        "text": "Somebody tell me I'm not alone when I say"
+      },
+      {
+        "time_ms": 58200,
+        "text": "All I need is a little love in my life"
+      },
+      {
+        "time_ms": 61000,
+        "text": "All I need is a little love in the dark"
+      },
+      {
+        "time_ms": 64110,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 67430,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 69530,
+        "text": "I need a little loving tonight"
+      },
+      {
+        "time_ms": 72000,
+        "text": "Hold me so I'm not falling apart"
+      },
+      {
+        "time_ms": 74980,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 78470,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 82850,
+        "text": "Maybe some part of you just hates me"
+      },
+      {
+        "time_ms": 86700,
+        "text": "You pick me up and play me"
+      },
+      {
+        "time_ms": 89430,
+        "text": "How do we call this love? (Whoa-oh-oh-oh)"
+      },
+      {
+        "time_ms": 93840,
+        "text": "One time, tell me you need me tonight"
+      },
+      {
+        "time_ms": 97759,
+        "text": "To make it easy, you lie"
+      },
+      {
+        "time_ms": 100590,
+        "text": "And say it's all for love (whoa-oh-oh-oh)"
+      },
+      {
+        "time_ms": 105680,
+        "text": "It seems like we've been losing control"
+      },
+      {
+        "time_ms": 110800,
+        "text": "Somebody tell me I'm not alone when I say"
+      },
+      {
+        "time_ms": 116390,
+        "text": "All I need is a little love in my life"
+      },
+      {
+        "time_ms": 119060,
+        "text": "All I need is a little love in the dark"
+      },
+      {
+        "time_ms": 122040,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 125390,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 127490,
+        "text": "I need a little loving tonight"
+      },
+      {
+        "time_ms": 129930,
+        "text": "Hold me so I'm not falling apart"
+      },
+      {
+        "time_ms": 133000,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 136360,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 138890,
+        "text": "Whoa, whoa"
+      },
+      {
+        "time_ms": 141970,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 144390,
+        "text": "Whoa, whoa"
+      },
+      {
+        "time_ms": 147540,
+        "text": "Me and my broken"
+      },
+      {
+        "time_ms": 151400,
+        "text": "Yeah, yeah, yeah (Me and my broken)"
+      },
+      {
+        "time_ms": 155110,
+        "text": "(Broke this love) Yeah, yeah, yeah (How do we call this)"
+      },
+      {
+        "time_ms": 160290,
+        "text": "It's just me"
+      },
+      {
+        "time_ms": 161410,
+        "text": "It's just me"
+      },
+      {
+        "time_ms": 162820,
+        "text": "It's just me"
+      },
+      {
+        "time_ms": 164100,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 165930,
+        "text": "All I need is a little love in my life"
+      },
+      {
+        "time_ms": 168650,
+        "text": "All I need is a little love in the dark"
+      },
+      {
+        "time_ms": 171600,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 174920,
+        "text": "Me and my broken heart"
+      },
+      {
+        "time_ms": 177320,
+        "text": "I need a little loving tonight"
+      },
+      {
+        "time_ms": 179750,
+        "text": "Hold me so I'm not falling apart"
+      },
+      {
+        "time_ms": 182720,
+        "text": "A little but I'm hoping it might kick start"
+      },
+      {
+        "time_ms": 186060,
+        "text": "Me and my broken heart"
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "track_id": "wham-last-christmas",
+  "audio_file": "Wham! - Last Christmas.mp3",
+  "track_info": {
+    "name": "Last Christmas",
+    "artist": "Wham!",
+    "album_art": "MoodData/art/wham-last-christmas",
+    "duration_ms": 269000
+  },
+  "mood": {
+    "primary": "bittersweet",
+    "secondary": "wintry",
+    "tags": [
+      "nostalgic",
+      "wintry",
+      "heartbroken",
+      "80s-synth",
+      "isolated"
+    ],
+    "color_palette": [
+      "#0F2027",
+      "#2C5364",
+      "#C0C0C0",
+      "#FF4D4D"
+    ],
+    "atmosphere": "snowy mountain chalet",
+    "emotional_tone": "melancholy",
+    "energy_level": "medium",
+    "color_reasoning": "The deep blues and slate grays represent the cold isolation and winter setting, while the silver reflects 80s aesthetics and the sharp, piercing pop of crimson red serves as a visual metaphor for the 'given away' heart.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 17810,
+        "text": "Last Christmas I gave you my heart"
+      },
+      {
+        "time_ms": 22030,
+        "text": "But the very next day you gave it away"
+      },
+      {
+        "time_ms": 26800,
+        "text": "This year, to save me from tears"
+      },
+      {
+        "time_ms": 31220,
+        "text": "I'll give it to someone special"
+      },
+      {
+        "time_ms": 35930,
+        "text": "Last Christmas I gave you my heart"
+      },
+      {
+        "time_ms": 39940,
+        "text": "But the very next day you gave it away"
+      },
+      {
+        "time_ms": 44940,
+        "text": "This year, to save me from tears"
+      },
+      {
+        "time_ms": 49110,
+        "text": "I'll give it to someone special"
+      },
+      {
+        "time_ms": 72470,
+        "text": "Once bitten and twice shy"
+      },
+      {
+        "time_ms": 76590,
+        "text": "I keep my distance, but you still catch my eye"
+      },
+      {
+        "time_ms": 81460,
+        "text": "Tell me baby, do you recognize me?"
+      },
+      {
+        "time_ms": 85590,
+        "text": "Well, it's been a year, it doesn't surprise me"
+      },
+      {
+        "time_ms": 90170,
+        "text": "Happy Christmas, I wrapped it up and sent it"
+      },
+      {
+        "time_ms": 94350,
+        "text": "With a note saying \"I love you\", I meant it"
+      },
+      {
+        "time_ms": 98979,
+        "text": "Now I know what a fool I've been"
+      },
+      {
+        "time_ms": 102640,
+        "text": "But if you kissed me now, I know you'd fool me again"
+      },
+      {
+        "time_ms": 107820,
+        "text": "Last Christmas I gave you my heart"
+      },
+      {
+        "time_ms": 111720,
+        "text": "But the very next day you gave it away"
+      },
+      {
+        "time_ms": 116979,
+        "text": "This year, to save me from tears"
+      },
+      {
+        "time_ms": 121070,
+        "text": "I'll give it to someone special"
+      },
+      {
+        "time_ms": 125940,
+        "text": "Last Christmas I gave you my heart"
+      },
+      {
+        "time_ms": 129759,
+        "text": "But the very next day you gave it away"
+      },
+      {
+        "time_ms": 134660,
+        "text": "This year, to save me from tears"
+      },
+      {
+        "time_ms": 139140,
+        "text": "I'll give it to someone special"
+      },
+      {
+        "time_ms": 143800,
+        "text": "Ooh"
+      },
+      {
+        "time_ms": 147260,
+        "text": "Oh, oh, baby"
+      },
+      {
+        "time_ms": 162010,
+        "text": "A crowded room, friends with tired eyes"
+      },
+      {
+        "time_ms": 166670,
+        "text": "I'm hiding from you and your soul of ice"
+      },
+      {
+        "time_ms": 171030,
+        "text": "My God, I thought you were someone to rely on"
+      },
+      {
+        "time_ms": 175280,
+        "text": "Me? I guess I was a shoulder to cry on"
+      },
+      {
+        "time_ms": 179010,
+        "text": "A face on a lover with a fire in his heart"
+      },
+      {
+        "time_ms": 183740,
+        "text": "A man under cover, but you tore me apart"
+      },
+      {
+        "time_ms": 190620,
+        "text": "Oh, oh now I've found a real love"
+      },
+      {
+        "time_ms": 194710,
+        "text": "You'll never fool me again"
+      },
+      {
+        "time_ms": 197760,
+        "text": "Last Christmas I gave you my heart"
+      },
+      {
+        "time_ms": 201660,
+        "text": "But the very next day you gave it away"
+      },
+      {
+        "time_ms": 206750,
+        "text": "This year, to save me from tears"
+      },
+      {
+        "time_ms": 210910,
+        "text": "I'll give it to someone special, special"
+      },
+      {
+        "time_ms": 215570,
+        "text": "Last Christmas I gave you my heart"
+      },
+      {
+        "time_ms": 219620,
+        "text": "But the very next day you gave it away"
+      },
+      {
+        "time_ms": 224790,
+        "text": "This year, to save me from tears"
+      },
+      {
+        "time_ms": 228930,
+        "text": "I'll give it to someone special"
+      },
+      {
+        "time_ms": 232420,
+        "text": "Special"
+      },
+      {
+        "time_ms": 233470,
+        "text": "A face on a lover with a fire in his heart (I gave you mine)"
+      },
+      {
+        "time_ms": 237890,
+        "text": "A man under cover but you tore him apart"
+      },
+      {
+        "time_ms": 243000,
+        "text": "Maybe next year I'll give it to someone"
+      },
+      {
+        "time_ms": 248910,
+        "text": "I'll give it to someone special"
+      },
+      {
+        "time_ms": 252820,
+        "text": "Special"
+      },
+      {
+        "time_ms": 256130,
+        "text": "So long"
+      }
+    ]
+  }
+}

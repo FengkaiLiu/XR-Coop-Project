@@ -1,0 +1,257 @@
+{
+  "track_id": "george-benson-nothings-gonna-change-my-love-for-you",
+  "audio_file": "George Benson - Nothing's Gonna Change My Love For You.mp3",
+  "track_info": {
+    "name": "Nothing's Gonna Change My Love For You",
+    "artist": "George Benson",
+    "album_art": "MoodData/art/george-benson-nothings-gonna-change-my-love-for-you",
+    "duration_ms": 240000
+  },
+  "mood": {
+    "primary": "romantic",
+    "secondary": "intimate",
+    "tags": [
+      "romantic",
+      "intimate",
+      "timeless",
+      "smooth",
+      "velvety"
+    ],
+    "color_palette": [
+      "#FFD700",
+      "#8B4513",
+      "#2C0E0E",
+      "#F5E6CA"
+    ],
+    "atmosphere": "golden hour lounge",
+    "emotional_tone": "dreamy",
+    "energy_level": "low",
+    "color_reasoning": "The palette uses warm gold and deep chocolate browns to evoke the richness of jazz clubs and the intimate, everlasting nature of the lyrics, while the cream highlights represent clarity and hope.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 0,
+        "text": "♫"
+      },
+      {
+        "time_ms": 17500,
+        "text": "If I had to live my life without you near me"
+      },
+      {
+        "time_ms": 23010,
+        "text": "The days would all be empty"
+      },
+      {
+        "time_ms": 28130,
+        "text": "The nights would seem so long"
+      },
+      {
+        "time_ms": 31770,
+        "text": "With you I see forever, oh, so clearly"
+      },
+      {
+        "time_ms": 36650,
+        "text": "I might have been in love before"
+      },
+      {
+        "time_ms": 42020,
+        "text": "But it never felt this strong"
+      },
+      {
+        "time_ms": 45520,
+        "text": "Our dreams are young and we both know"
+      },
+      {
+        "time_ms": 49280,
+        "text": "They'll take us where we want to go"
+      },
+      {
+        "time_ms": 52790,
+        "text": "Hold me now, touch me now"
+      },
+      {
+        "time_ms": 56300,
+        "text": "I don't want to live without you"
+      },
+      {
+        "time_ms": 61730,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 64959,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 68960,
+        "text": "One thing you can be sure of"
+      },
+      {
+        "time_ms": 72390,
+        "text": "I'll never ask for more than your love"
+      },
+      {
+        "time_ms": 75730,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 78980,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 82880,
+        "text": "The world may change my whole life through"
+      },
+      {
+        "time_ms": 86060,
+        "text": "But nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 93130,
+        "text": "If the road ahead is not so easy"
+      },
+      {
+        "time_ms": 98229,
+        "text": "Our love will lead the way for us"
+      },
+      {
+        "time_ms": 103740,
+        "text": "Like a guiding star"
+      },
+      {
+        "time_ms": 107370,
+        "text": "I'll be there for you if you should need me"
+      },
+      {
+        "time_ms": 112550,
+        "text": "You don't have to change a thing"
+      },
+      {
+        "time_ms": 117289,
+        "text": "I love you just the way you are"
+      },
+      {
+        "time_ms": 120980,
+        "text": "So come with me and share the view"
+      },
+      {
+        "time_ms": 124630,
+        "text": "I'll help you see forever too"
+      },
+      {
+        "time_ms": 128070,
+        "text": "Hold me now, touch me now"
+      },
+      {
+        "time_ms": 131700,
+        "text": "I don't want to live without you"
+      },
+      {
+        "time_ms": 137079,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 140480,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 144410,
+        "text": "One thing you can be sure of"
+      },
+      {
+        "time_ms": 147970,
+        "text": "I'll never ask for more than your love"
+      },
+      {
+        "time_ms": 151510,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 154450,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 158250,
+        "text": "The world may change my whole life through"
+      },
+      {
+        "time_ms": 161350,
+        "text": "But nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 165070,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 168270,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 172640,
+        "text": "One thing you can be sure of"
+      },
+      {
+        "time_ms": 176570,
+        "text": "I'll never ask for more than your love"
+      },
+      {
+        "time_ms": 180190,
+        "text": "♫"
+      },
+      {
+        "time_ms": 193270,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 196680,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 200230,
+        "text": "The world may change my whole life through"
+      },
+      {
+        "time_ms": 203430,
+        "text": "But nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 207380,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 210760,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 215020,
+        "text": "One thing you can be sure of"
+      },
+      {
+        "time_ms": 218070,
+        "text": "I'll never ask for more than your love"
+      },
+      {
+        "time_ms": 221320,
+        "text": "Nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 224660,
+        "text": "You oughta know by now how much I love you"
+      },
+      {
+        "time_ms": 228600,
+        "text": "The world may change my whole life through"
+      },
+      {
+        "time_ms": 231470,
+        "text": "But nothing's gonna change my love for you"
+      },
+      {
+        "time_ms": 235620,
+        "text": "nothing's gonna change my love for you"
+      }
+    ]
+  }
+}

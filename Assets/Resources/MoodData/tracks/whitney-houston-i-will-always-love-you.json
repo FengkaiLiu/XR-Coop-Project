@@ -1,0 +1,149 @@
+{
+  "track_id": "whitney-houston-i-will-always-love-you",
+  "audio_file": "Whitney Houston - I Will Always Love You.mp3",
+  "track_info": {
+    "name": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "album_art": "MoodData/art/whitney-houston-i-will-always-love-you",
+    "duration_ms": 271000
+  },
+  "mood": {
+    "primary": "evocative",
+    "secondary": "soulful",
+    "tags": [
+      "cinematic",
+      "soulful",
+      "poignant",
+      "grand",
+      "intimate"
+    ],
+    "color_palette": [
+      "#2D1B4E",
+      "#8E44AD",
+      "#FDF3D0",
+      "#A9C5E8"
+    ],
+    "atmosphere": "ethereal velvet cathedral",
+    "emotional_tone": "longing",
+    "energy_level": "low",
+    "color_reasoning": "Deep violets and purples represent the bittersweet weight of parting, while the soft cream and light blue tones introduce the hopeful, luminous quality of the vocal delivery and the purity of the lyrics.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 560,
+        "text": "If I should stay"
+      },
+      {
+        "time_ms": 10470,
+        "text": "I would only be in your way"
+      },
+      {
+        "time_ms": 20190,
+        "text": "So I'll go, but I know"
+      },
+      {
+        "time_ms": 27980,
+        "text": "I'll think of you every step of the way"
+      },
+      {
+        "time_ms": 42920,
+        "text": "And I will always love you"
+      },
+      {
+        "time_ms": 53830,
+        "text": "I will always love you"
+      },
+      {
+        "time_ms": 67080,
+        "text": "You"
+      },
+      {
+        "time_ms": 70289,
+        "text": "My darling, you, mm, mm"
+      },
+      {
+        "time_ms": 76900,
+        "text": "Bittersweet memories"
+      },
+      {
+        "time_ms": 84100,
+        "text": "That is all I'm taking with me"
+      },
+      {
+        "time_ms": 91560,
+        "text": "So goodbye, please don't cry"
+      },
+      {
+        "time_ms": 98430,
+        "text": "We both know I'm not what you, you need"
+      },
+      {
+        "time_ms": 105960,
+        "text": "And I will always love you"
+      },
+      {
+        "time_ms": 115720,
+        "text": "I will always love you"
+      },
+      {
+        "time_ms": 125550,
+        "text": "You"
+      },
+      {
+        "time_ms": 155550,
+        "text": "I hope life treats you kind"
+      },
+      {
+        "time_ms": 162680,
+        "text": "And I hope you have all you've dreamed of"
+      },
+      {
+        "time_ms": 169970,
+        "text": "And I wish you joy and happiness"
+      },
+      {
+        "time_ms": 176860,
+        "text": "But above all this, I wish you love"
+      },
+      {
+        "time_ms": 188770,
+        "text": "And I will always love you"
+      },
+      {
+        "time_ms": 198460,
+        "text": "I will always love you"
+      },
+      {
+        "time_ms": 204920,
+        "text": "I will always love you"
+      },
+      {
+        "time_ms": 212510,
+        "text": "I will always love you"
+      },
+      {
+        "time_ms": 221450,
+        "text": "I will always love you"
+      },
+      {
+        "time_ms": 228240,
+        "text": "I, I will always love you"
+      },
+      {
+        "time_ms": 243880,
+        "text": "You"
+      },
+      {
+        "time_ms": 246450,
+        "text": "Darling, I love you"
+      },
+      {
+        "time_ms": 250490,
+        "text": "I'll always, I'll always love you"
+      }
+    ]
+  }
+}

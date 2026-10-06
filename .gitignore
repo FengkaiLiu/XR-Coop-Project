@@ -97,3 +97,11 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Bakery: oversized NVIDIA cuDNN library (>100MB, GitHub limit)
+/[Aa]ssets/Editor/x64/Bakery/cudnn64_7.dll
+/[Aa]ssets/Editor/x64/Bakery/cudnn64_7.dll.meta
+
+# OS files
+.DS_Store
+Thumbs.db

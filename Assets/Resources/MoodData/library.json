@@ -1,0 +1,84 @@
+{
+  "tracks": [
+    {
+      "id": "avril-lavigne-innocence",
+      "audio_file": "Avril Lavigne - Innocence.mp3",
+      "name": "Innocence",
+      "artist": "Avril Lavigne",
+      "album_art": "MoodData/art/avril-lavigne-innocence",
+      "duration_ms": 233000
+    },
+    {
+      "id": "coldplay-yellow",
+      "audio_file": "Coldplay - Yellow.mp3",
+      "name": "Yellow",
+      "artist": "Coldplay",
+      "album_art": "MoodData/art/coldplay-yellow",
+      "duration_ms": 268000
+    },
+    {
+      "id": "george-benson-nothings-gonna-change-my-love-for-you",
+      "audio_file": "George Benson - Nothing's Gonna Change My Love For You.mp3",
+      "name": "Nothing's Gonna Change My Love For You",
+      "artist": "George Benson",
+      "album_art": "MoodData/art/george-benson-nothings-gonna-change-my-love-for-you",
+      "duration_ms": 240000
+    },
+    {
+      "id": "michael-jackson-billie-jean",
+      "audio_file": "Michael Jackson - Billie Jean.mp3",
+      "name": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album_art": "MoodData/art/michael-jackson-billie-jean",
+      "duration_ms": 293000
+    },
+    {
+      "id": "michael-learns-to-rock-take-me-to-your-heart",
+      "audio_file": "Michael Learns To Rock - Take Me To Your Heart.mp3",
+      "name": "Take Me To Your Heart",
+      "artist": "Michael Learns To Rock",
+      "album_art": "MoodData/art/michael-learns-to-rock-take-me-to-your-heart",
+      "duration_ms": 239000
+    },
+    {
+      "id": "onerepublic-apologize",
+      "audio_file": "OneRepublic - Apologize.mp3",
+      "name": "Apologize",
+      "artist": "OneRepublic",
+      "album_art": "MoodData/art/onerepublic-apologize",
+      "duration_ms": 208000
+    },
+    {
+      "id": "rixton-me-and-my-broken-heart",
+      "audio_file": "Rixton - Me and My Broken Heart.mp3",
+      "name": "Me and My Broken Heart",
+      "artist": "Rixton",
+      "album_art": "MoodData/art/rixton-me-and-my-broken-heart",
+      "duration_ms": 194000
+    },
+    {
+      "id": "westlife-my-love",
+      "audio_file": "Westlife - My Love (Radio Edit).mp3",
+      "name": "My Love",
+      "artist": "Westlife",
+      "album_art": "MoodData/art/westlife-my-love",
+      "duration_ms": 233000
+    },
+    {
+      "id": "wham-last-christmas",
+      "audio_file": "Wham! - Last Christmas.mp3",
+      "name": "Last Christmas",
+      "artist": "Wham!",
+      "album_art": "MoodData/art/wham-last-christmas",
+      "duration_ms": 269000
+    },
+    {
+      "id": "whitney-houston-i-will-always-love-you",
+      "audio_file": "Whitney Houston - I Will Always Love You.mp3",
+      "name": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "album_art": "MoodData/art/whitney-houston-i-will-always-love-you",
+      "duration_ms": 271000
+    }
+  ]
+}

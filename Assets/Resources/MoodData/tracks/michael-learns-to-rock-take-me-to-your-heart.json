@@ -1,0 +1,209 @@
+{
+  "track_id": "michael-learns-to-rock-take-me-to-your-heart",
+  "audio_file": "Michael Learns To Rock - Take Me To Your Heart.mp3",
+  "track_info": {
+    "name": "Take Me To Your Heart",
+    "artist": "Michael Learns To Rock",
+    "album_art": "MoodData/art/michael-learns-to-rock-take-me-to-your-heart",
+    "duration_ms": 239000
+  },
+  "mood": {
+    "primary": "yearning",
+    "secondary": "introspective",
+    "tags": [
+      "sentimental",
+      "introspective",
+      "longing",
+      "soft",
+      "nostalgic"
+    ],
+    "color_palette": [
+      "#1e2a44",
+      "#4a6fa5",
+      "#dcd0c0",
+      "#f4f1ea"
+    ],
+    "atmosphere": "moonlit mountain balcony",
+    "emotional_tone": "nostalgic",
+    "energy_level": "low",
+    "color_reasoning": "Deep blues reflect the nocturnal setting and emotional solitude of the lyrics, while soft creams and muted champagnes represent the moonlight and the tender, hopeful nature of the plea for love.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 5030,
+        "text": "Mmm, hmm, yeah"
+      },
+      {
+        "time_ms": 9020,
+        "text": "Mmm, hmm"
+      },
+      {
+        "time_ms": 16750,
+        "text": "Hiding from the rain and snow"
+      },
+      {
+        "time_ms": 20210,
+        "text": "Trying to forget, but I won't let go"
+      },
+      {
+        "time_ms": 24410,
+        "text": "Looking at a crowded street"
+      },
+      {
+        "time_ms": 28220,
+        "text": "Listening to my own heartbeat"
+      },
+      {
+        "time_ms": 32420,
+        "text": "So many people all around the world"
+      },
+      {
+        "time_ms": 39930,
+        "text": "Tell me, where do I find someone like you, girl?"
+      },
+      {
+        "time_ms": 47990,
+        "text": "Take me to your heart, take me to your soul"
+      },
+      {
+        "time_ms": 51780,
+        "text": "Give me your hand before I'm old"
+      },
+      {
+        "time_ms": 55670,
+        "text": "Show me what love is, haven't got a clue"
+      },
+      {
+        "time_ms": 59450,
+        "text": "Show me that wonders can be true"
+      },
+      {
+        "time_ms": 63200,
+        "text": "They say nothing lasts forever"
+      },
+      {
+        "time_ms": 66940,
+        "text": "We're only here today"
+      },
+      {
+        "time_ms": 70640,
+        "text": "Love is now or never"
+      },
+      {
+        "time_ms": 75060,
+        "text": "Bring me far away"
+      },
+      {
+        "time_ms": 78690,
+        "text": "Take me to your heart, take me to your soul"
+      },
+      {
+        "time_ms": 83680,
+        "text": "Give me your hand and hold me"
+      },
+      {
+        "time_ms": 87000,
+        "text": "Show me what love is, be my guiding star"
+      },
+      {
+        "time_ms": 91090,
+        "text": "It's easy, take me to your heart"
+      },
+      {
+        "time_ms": 109470,
+        "text": "Standing on a mountain high"
+      },
+      {
+        "time_ms": 134350,
+        "text": "Looking at the moon through a clear blue sky"
+      },
+      {
+        "time_ms": 137990,
+        "text": "I should go and see some friends"
+      },
+      {
+        "time_ms": 142190,
+        "text": "But they don't really comprehend"
+      },
+      {
+        "time_ms": 145840,
+        "text": "Don't need too much talking without saying anything"
+      },
+      {
+        "time_ms": 152800,
+        "text": "All I need is someone who makes me wanna sing"
+      },
+      {
+        "time_ms": 161360,
+        "text": "Take me to your heart, take me to your soul"
+      },
+      {
+        "time_ms": 165700,
+        "text": "Give me your hand before I'm old"
+      },
+      {
+        "time_ms": 169870,
+        "text": "Show me what love is, haven't got a clue"
+      },
+      {
+        "time_ms": 173800,
+        "text": "Show me that wonders can be true"
+      },
+      {
+        "time_ms": 177550,
+        "text": "They say nothing lasts forever"
+      },
+      {
+        "time_ms": 181610,
+        "text": "We're only here today"
+      },
+      {
+        "time_ms": 186020,
+        "text": "Love is now or never"
+      },
+      {
+        "time_ms": 190600,
+        "text": "Bring me far away"
+      },
+      {
+        "time_ms": 193220,
+        "text": "Take me to your heart, take me to your soul"
+      },
+      {
+        "time_ms": 198020,
+        "text": "Give me your hand and hold me"
+      },
+      {
+        "time_ms": 201210,
+        "text": "Show me what love is, be my guiding star"
+      },
+      {
+        "time_ms": 205740,
+        "text": "It's easy, take me to your heart"
+      },
+      {
+        "time_ms": 210860,
+        "text": "(Take me, take me)"
+      },
+      {
+        "time_ms": 213200,
+        "text": "Take me to your heart, take me to your soul"
+      },
+      {
+        "time_ms": 217920,
+        "text": "Give me your hand and hold me"
+      },
+      {
+        "time_ms": 221130,
+        "text": "Show me what love is, be my guiding star"
+      },
+      {
+        "time_ms": 225250,
+        "text": "It's easy, take me to your heart"
+      }
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "track_id": "westlife-my-love",
+  "audio_file": "Westlife - My Love (Radio Edit).mp3",
+  "track_info": {
+    "name": "My Love",
+    "artist": "Westlife",
+    "album_art": "MoodData/art/westlife-my-love",
+    "duration_ms": 233000
+  },
+  "mood": {
+    "primary": "longing",
+    "secondary": "melancholy",
+    "tags": [
+      "nostalgic",
+      "melancholy",
+      "longing",
+      "ethereal",
+      "cinematic"
+    ],
+    "color_palette": [
+      "#2D4F3E",
+      "#A0B9C6",
+      "#E8EAE6",
+      "#4A6FA5"
+    ],
+    "atmosphere": "misty emerald cliffside",
+    "emotional_tone": "nostalgic",
+    "energy_level": "medium",
+    "color_reasoning": "The deep forest green reflects the Irish landscape mentioned in the lyrics, while the muted blues and soft greys capture the cold, empty feeling of separation and the hope for a clear, blue-sky reunion.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 9240,
+        "text": "An empty street, an empty house"
+      },
+      {
+        "time_ms": 12540,
+        "text": "A hole inside my heart"
+      },
+      {
+        "time_ms": 15740,
+        "text": "I'm all alone, the rooms are getting smaller"
+      },
+      {
+        "time_ms": 22310,
+        "text": "I wonder how, I wonder why"
+      },
+      {
+        "time_ms": 26360,
+        "text": "I wonder where they are"
+      },
+      {
+        "time_ms": 28780,
+        "text": "The days we had, the songs we sang together"
+      },
+      {
+        "time_ms": 35060,
+        "text": "Oh, yeah"
+      },
+      {
+        "time_ms": 36290,
+        "text": "And oh, my love"
+      },
+      {
+        "time_ms": 38670,
+        "text": "I'm holding on forever"
+      },
+      {
+        "time_ms": 42350,
+        "text": "Reaching for the love that seems so far"
+      },
+      {
+        "time_ms": 48780,
+        "text": "So, I say a little prayer"
+      },
+      {
+        "time_ms": 51440,
+        "text": "And hope my dreams will take me there"
+      },
+      {
+        "time_ms": 54920,
+        "text": "Where the skies are blue"
+      },
+      {
+        "time_ms": 57320,
+        "text": "To see you once again, my love"
+      },
+      {
+        "time_ms": 61680,
+        "text": "Overseas, from coast to coast"
+      },
+      {
+        "time_ms": 64870,
+        "text": "To find a place I love the most"
+      },
+      {
+        "time_ms": 68240,
+        "text": "Where the fields are green"
+      },
+      {
+        "time_ms": 70660,
+        "text": "To see you once again"
+      },
+      {
+        "time_ms": 74760,
+        "text": "My love"
+      },
+      {
+        "time_ms": 79140,
+        "text": "I try to read, I go to work"
+      },
+      {
+        "time_ms": 82300,
+        "text": "I'm laughing with my friends"
+      },
+      {
+        "time_ms": 85860,
+        "text": "But I can't stop to keep myself from thinking, oh no"
+      },
+      {
+        "time_ms": 92710,
+        "text": "I wonder how, I wonder why"
+      },
+      {
+        "time_ms": 95770,
+        "text": "I wonder where they are"
+      },
+      {
+        "time_ms": 98630,
+        "text": "The days we had, the songs we sang together, oh, yeah"
+      },
+      {
+        "time_ms": 105680,
+        "text": "And oh, my love"
+      },
+      {
+        "time_ms": 109009,
+        "text": "I'm holding on forever"
+      },
+      {
+        "time_ms": 112039,
+        "text": "Reaching for the love that seems so far"
+      },
+      {
+        "time_ms": 118620,
+        "text": "So, I say a little prayer"
+      },
+      {
+        "time_ms": 121310,
+        "text": "And hope my dreams will take me there"
+      },
+      {
+        "time_ms": 125360,
+        "text": "Where the skies are blue"
+      },
+      {
+        "time_ms": 127460,
+        "text": "To see you l once again, my love"
+      },
+      {
+        "time_ms": 131750,
+        "text": "Overseas, from coast to coast"
+      },
+      {
+        "time_ms": 134910,
+        "text": "To find a place I love the most"
+      },
+      {
+        "time_ms": 139670,
+        "text": "Where the fields are green"
+      },
+      {
+        "time_ms": 140720,
+        "text": "To see you once again"
+      },
+      {
+        "time_ms": 144590,
+        "text": "To hold you in my arms"
+      },
+      {
+        "time_ms": 147440,
+        "text": "To promise you my love"
+      },
+      {
+        "time_ms": 152120,
+        "text": "To tell you from the heart"
+      },
+      {
+        "time_ms": 154170,
+        "text": "You're all I'm thinking of"
+      },
+      {
+        "time_ms": 166890,
+        "text": "I'm reaching for the love that seems so far"
+      },
+      {
+        "time_ms": 171600,
+        "text": "So, I say a little prayer"
+      },
+      {
+        "time_ms": 174910,
+        "text": "And hope my dreams will take me there"
+      },
+      {
+        "time_ms": 178620,
+        "text": "Where the skies are blue"
+      },
+      {
+        "time_ms": 180520,
+        "text": "To see you once again, my love"
+      },
+      {
+        "time_ms": 185000,
+        "text": "Overseas, from coast to coast"
+      },
+      {
+        "time_ms": 188290,
+        "text": "To find the place I love the most"
+      },
+      {
+        "time_ms": 191760,
+        "text": "Where the fields are green"
+      },
+      {
+        "time_ms": 193960,
+        "text": "To see you once again"
+      },
+      {
+        "time_ms": 197940,
+        "text": "(My love)"
+      },
+      {
+        "time_ms": 199910,
+        "text": "Say a little prayer (my sweet love)"
+      },
+      {
+        "time_ms": 202670,
+        "text": "Dreams will take me there"
+      },
+      {
+        "time_ms": 205010,
+        "text": "Where the skies are blue (woah, yeah)"
+      },
+      {
+        "time_ms": 207720,
+        "text": "To see you once again"
+      },
+      {
+        "time_ms": 212240,
+        "text": "Overseas, from coast to coast"
+      },
+      {
+        "time_ms": 216140,
+        "text": "To find the place I love the most"
+      },
+      {
+        "time_ms": 218110,
+        "text": "Where the fields are green"
+      },
+      {
+        "time_ms": 220550,
+        "text": "To see you once again"
+      },
+      {
+        "time_ms": 224880,
+        "text": "My love"
+      }
+    ]
+  }
+}

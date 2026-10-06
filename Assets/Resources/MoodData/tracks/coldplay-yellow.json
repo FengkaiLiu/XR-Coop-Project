@@ -1,0 +1,185 @@
+{
+  "track_id": "coldplay-yellow",
+  "audio_file": "Coldplay - Yellow.mp3",
+  "track_info": {
+    "name": "Yellow",
+    "artist": "Coldplay",
+    "album_art": "MoodData/art/coldplay-yellow",
+    "duration_ms": 268000
+  },
+  "mood": {
+    "primary": "dreamy",
+    "secondary": "romantic",
+    "tags": [
+      "ethereal",
+      "romantic",
+      "nostalgic",
+      "celestial",
+      "warm"
+    ],
+    "color_palette": [
+      "#FFD700",
+      "#FFFACD",
+      "#2F4F4F",
+      "#0B1026"
+    ],
+    "atmosphere": "starlit beach dawn",
+    "emotional_tone": "devotional",
+    "energy_level": "low",
+    "color_reasoning": "Gold and Lemon Chiffon represent the iconic yellow stars and light, while the Deep Slate and Midnight Blue provide a soft, celestial backdrop that grounds the song's melancholic romanticism.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 34160,
+        "text": "Look at the stars"
+      },
+      {
+        "time_ms": 36960,
+        "text": "Look how they shine for you"
+      },
+      {
+        "time_ms": 42670,
+        "text": "And everything you do"
+      },
+      {
+        "time_ms": 48160,
+        "text": "Yeah, they were all yellow"
+      },
+      {
+        "time_ms": 51160,
+        "text": "I came along"
+      },
+      {
+        "time_ms": 53920,
+        "text": "I wrote a song for you"
+      },
+      {
+        "time_ms": 59190,
+        "text": "And all the things you do"
+      },
+      {
+        "time_ms": 64740,
+        "text": "And it was called \"Yellow\""
+      },
+      {
+        "time_ms": 71750,
+        "text": "So then I took my turn"
+      },
+      {
+        "time_ms": 75750,
+        "text": "Oh, what a thing to have done"
+      },
+      {
+        "time_ms": 80980,
+        "text": "And it was all yellow"
+      },
+      {
+        "time_ms": 89230,
+        "text": "(Ah) Your skin, oh, yeah, your skin and bones"
+      },
+      {
+        "time_ms": 95220,
+        "text": "(Ooh) Turn into something beautiful"
+      },
+      {
+        "time_ms": 100840,
+        "text": "(Ah) And you know, you know I love you so"
+      },
+      {
+        "time_ms": 109009,
+        "text": "You know I love you so"
+      },
+      {
+        "time_ms": 133980,
+        "text": "I swam across"
+      },
+      {
+        "time_ms": 136680,
+        "text": "I jumped across for you"
+      },
+      {
+        "time_ms": 141820,
+        "text": "Oh, what a thing to do"
+      },
+      {
+        "time_ms": 147640,
+        "text": "'Cause you were all yellow"
+      },
+      {
+        "time_ms": 150530,
+        "text": "I drew a line"
+      },
+      {
+        "time_ms": 153410,
+        "text": "I drew a line for you"
+      },
+      {
+        "time_ms": 158800,
+        "text": "Oh, what a thing to do"
+      },
+      {
+        "time_ms": 164410,
+        "text": "And it was all yellow"
+      },
+      {
+        "time_ms": 172240,
+        "text": "(Ah) And your skin, oh, yeah, your skin and bones"
+      },
+      {
+        "time_ms": 178270,
+        "text": "(Ooh) Turn into something beautiful"
+      },
+      {
+        "time_ms": 183850,
+        "text": "(Ah) And you know, for you, I'd bleed myself dry"
+      },
+      {
+        "time_ms": 192130,
+        "text": "For you, I'd bleed myself dry"
+      },
+      {
+        "time_ms": 216320,
+        "text": "It's true"
+      },
+      {
+        "time_ms": 219680,
+        "text": "Look how they shine for you"
+      },
+      {
+        "time_ms": 225200,
+        "text": "Look how they shine for you"
+      },
+      {
+        "time_ms": 230610,
+        "text": "Look how they shine for"
+      },
+      {
+        "time_ms": 236340,
+        "text": "Look how they shine for you"
+      },
+      {
+        "time_ms": 241760,
+        "text": "Look how they shine for you"
+      },
+      {
+        "time_ms": 247570,
+        "text": "Look how they shine"
+      },
+      {
+        "time_ms": 250400,
+        "text": "Look at the stars"
+      },
+      {
+        "time_ms": 252830,
+        "text": "Look how they shine for you"
+      },
+      {
+        "time_ms": 258490,
+        "text": "And all the things that you do"
+      }
+    ]
+  }
+}

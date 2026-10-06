@@ -1,0 +1,293 @@
+{
+  "track_id": "michael-jackson-billie-jean",
+  "audio_file": "Michael Jackson - Billie Jean.mp3",
+  "track_info": {
+    "name": "Billie Jean",
+    "artist": "Michael Jackson",
+    "album_art": "MoodData/art/michael-jackson-billie-jean",
+    "duration_ms": 293000
+  },
+  "mood": {
+    "primary": "enigmatic",
+    "secondary": "mysterious",
+    "tags": [
+      "cinematic",
+      "mysterious",
+      "pulsating",
+      "nocturnal",
+      "sleek"
+    ],
+    "color_palette": [
+      "#000000",
+      "#1a1a2e",
+      "#e63946",
+      "#f1faee"
+    ],
+    "atmosphere": "urban midnight noir",
+    "emotional_tone": "rebellious",
+    "energy_level": "high",
+    "color_reasoning": "Deep blacks and midnight blues mirror the paranoia and dark streets of the lyrics, while sharp crimson accents represent the intensity, danger, and the 'beauty queen' spotlight.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 29350,
+        "text": "She was more like a beauty queen from a movie scene"
+      },
+      {
+        "time_ms": 33290,
+        "text": "I said, \"Don't mind, but what do you mean I am the one"
+      },
+      {
+        "time_ms": 38550,
+        "text": "Who will dance on the floor in the round?\""
+      },
+      {
+        "time_ms": 43500,
+        "text": "She said I am the one"
+      },
+      {
+        "time_ms": 46900,
+        "text": "Who will dance on the floor in the round"
+      },
+      {
+        "time_ms": 53870,
+        "text": "She told me her name was Billie Jean as she caused a scene"
+      },
+      {
+        "time_ms": 57930,
+        "text": "Then every head turned with eyes that dreamed of being the one"
+      },
+      {
+        "time_ms": 63390,
+        "text": "Who will dance on the floor in the round"
+      },
+      {
+        "time_ms": 69950,
+        "text": "People always told me, \"Be careful of what you do"
+      },
+      {
+        "time_ms": 73640,
+        "text": "Don't go around breaking young girls' hearts\" (hee-eeh)"
+      },
+      {
+        "time_ms": 77940,
+        "text": "And mother always told me, \"Be careful of who you love"
+      },
+      {
+        "time_ms": 81770,
+        "text": "And be careful of what you do (oh, oh)"
+      },
+      {
+        "time_ms": 83780,
+        "text": "'Cause the lie becomes the truth\" (oh, oh), eh-eh"
+      },
+      {
+        "time_ms": 86610,
+        "text": "Billie Jean is not my lover, uh"
+      },
+      {
+        "time_ms": 90530,
+        "text": "She's just a girl who claims that I am the one (oh, baby)"
+      },
+      {
+        "time_ms": 95620,
+        "text": "But the kid is not my son (ooh!), uh"
+      },
+      {
+        "time_ms": 100740,
+        "text": "She says I am the one (oh, baby)"
+      },
+      {
+        "time_ms": 103890,
+        "text": "But the kid is not my son"
+      },
+      {
+        "time_ms": 107170,
+        "text": "(Hee-hee-hee, hee-hee-hee, ooh!) no, no"
+      },
+      {
+        "time_ms": 110930,
+        "text": "For 40 days and for 40 nights, I was on her side"
+      },
+      {
+        "time_ms": 115050,
+        "text": "But who can stand when she's in demand? Her schemes and plans"
+      },
+      {
+        "time_ms": 120480,
+        "text": "'Cause we danced on the floor in the round (hee)"
+      },
+      {
+        "time_ms": 125190,
+        "text": "So take my strong advice"
+      },
+      {
+        "time_ms": 128479,
+        "text": "Just remember to always think twice"
+      },
+      {
+        "time_ms": 132660,
+        "text": "(Don't think twice!) Do think twice! (Ah-hoo)"
+      },
+      {
+        "time_ms": 135500,
+        "text": "She told my baby we'd danced 'til 3:00, then she looked at me"
+      },
+      {
+        "time_ms": 139910,
+        "text": "Then showed a photo of a baby crying, his eyes were like mine (oh, no)"
+      },
+      {
+        "time_ms": 144770,
+        "text": "'Cause we danced on the floor in the round, baby"
+      },
+      {
+        "time_ms": 149490,
+        "text": "(Ooh, hee-hee-hee)"
+      },
+      {
+        "time_ms": 151650,
+        "text": "People always told me, \"Be careful of what you do"
+      },
+      {
+        "time_ms": 155260,
+        "text": "And don't go around breaking young girls' hearts\" (don't break no hearts)"
+      },
+      {
+        "time_ms": 159600,
+        "text": "But she came and stood right by me"
+      },
+      {
+        "time_ms": 161670,
+        "text": "Just the smell of sweet perfume"
+      },
+      {
+        "time_ms": 163840,
+        "text": "This happened much too soon"
+      },
+      {
+        "time_ms": 165800,
+        "text": "She called me to her room, hey"
+      },
+      {
+        "time_ms": 168540,
+        "text": "Billie Jean is not my lover (hoo)"
+      },
+      {
+        "time_ms": 172510,
+        "text": "She's just a girl who claims that I am the one, uh"
+      },
+      {
+        "time_ms": 177690,
+        "text": "But the kid is not my son"
+      },
+      {
+        "time_ms": 181680,
+        "text": "No-no-no, no-no-no-no-no-no (hoo)"
+      },
+      {
+        "time_ms": 185190,
+        "text": "Billie Jean is not my lover, uh"
+      },
+      {
+        "time_ms": 188850,
+        "text": "She's just a girl who claims that I am the one (oh, baby)"
+      },
+      {
+        "time_ms": 193980,
+        "text": "But the kid is not my son (no, no)"
+      },
+      {
+        "time_ms": 198900,
+        "text": "She says I am the one (oh, baby)"
+      },
+      {
+        "time_ms": 202050,
+        "text": "But the kid is not my son"
+      },
+      {
+        "time_ms": 206710,
+        "text": "(No, hee-hee)"
+      },
+      {
+        "time_ms": 210740,
+        "text": "Hee! Hoo!"
+      },
+      {
+        "time_ms": 223630,
+        "text": "She says I am the one, uh"
+      },
+      {
+        "time_ms": 226650,
+        "text": "But the kid is not my son"
+      },
+      {
+        "time_ms": 230490,
+        "text": "No-no-no, hoo (oh)"
+      },
+      {
+        "time_ms": 234170,
+        "text": "Billie Jean is not my lover"
+      },
+      {
+        "time_ms": 238300,
+        "text": "She's just a girl who claims that I am the one (you know what you did to me, baby)"
+      },
+      {
+        "time_ms": 243120,
+        "text": "But the kid is not my son"
+      },
+      {
+        "time_ms": 246300,
+        "text": "No-no-no, no-no-no-no"
+      },
+      {
+        "time_ms": 248200,
+        "text": "She says I am the one (no)"
+      },
+      {
+        "time_ms": 251320,
+        "text": "But the kid is not my son (no-no-no)"
+      },
+      {
+        "time_ms": 256459,
+        "text": "She says I am the one (you know what you did)"
+      },
+      {
+        "time_ms": 260660,
+        "text": "She says he is my son (breakin' my heart, babe)"
+      },
+      {
+        "time_ms": 264470,
+        "text": "She says I am the one"
+      },
+      {
+        "time_ms": 266650,
+        "text": "Yeah, Billie Jean is not my lover, uh"
+      },
+      {
+        "time_ms": 270760,
+        "text": "Yeah, Billie Jean is not my lover, uh"
+      },
+      {
+        "time_ms": 274760,
+        "text": "Yeah, Billie Jean is not my lover, uh"
+      },
+      {
+        "time_ms": 278800,
+        "text": "Yeah, Billie Jean is not my lover, uh (don't call me Billie Jean, hoo)"
+      },
+      {
+        "time_ms": 283370,
+        "text": "Billie Jean is not my lover, uh (she's not at the scene)"
+      },
+      {
+        "time_ms": 287000,
+        "text": "Yeah, Billie Jean is not..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ca84e725c7c764aa5ed097918d14b7, type: 3}
+  m_Name: ftLocalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  - Assets/ithappy/Interior/Meshes/closet/closet_010.fbx
+  - Assets/ithappy/Interior/Meshes/carpet/carpet_007.fbx
+  - Assets/ithappy/Interior/Meshes/prop/prop_104.fbx
+  - Assets/ithappy/Interior/Meshes/musical_instrument/musical_instrument_014.fbx
+  - Assets/ithappy/Interior/Meshes/Walls/Walls_006.fbx
+  - Assets/ithappy/Interior/Meshes/Curtains/Curtains_008.fbx
+  - Assets/ithappy/Interior/Meshes/lamp/lamp_016.fbx
+  - Assets/ithappy/Interior/Meshes/armchair/armchair_017.fbx
+  - Assets/ithappy/Interior/Meshes/prop/prop_076.fbx
+  - Assets/ithappy/Interior/Meshes/Wall/wall_001.fbx
+  - Assets/ithappy/Interior/Meshes/prop/prop_027.fbx
+  - Assets/ithappy/Interior/Meshes/prop/prop_029.fbx
+  - Assets/ithappy/Interior/Meshes/musical_instrument/musical_instrument_011.fbx
+  - Assets/ithappy/Interior/Meshes/lamp/lamp_023.fbx
+  - Assets/ithappy/Interior/Meshes/coffee_table/coffee_table_017.fbx
+  - Assets/ithappy/Interior/Meshes/Walls/Walls_021.fbx
+  - Assets/ithappy/Interior/Meshes/door/door_018.fbx
+  - Assets/ithappy/Interior/Meshes/sofa/sofa_004.fbx
+  - Assets/ithappy/Interior/Meshes/Walls/Walls_010.fbx
+  - Assets/ithappy/Interior/Meshes/Walls/Walls_042.fbx
+  - Assets/ithappy/Interior/Meshes/flower/flower_036.fbx
+  - Assets/ithappy/Interior/Meshes/door/door_017.fbx
+  - Assets/ithappy/Interior/Meshes/prop/prop_094.fbx
+  - Assets/ithappy/Interior/Meshes/kitchen_table/kitchen_table_018.fbx
+  - Assets/ithappy/Interior/Meshes/picture/picture_001.fbx
+  - Assets/ithappy/Interior/Meshes/tv_wall/tv_wall_025.fbx
+  - Assets/ithappy/Interior/Meshes/prop/prop_047.fbx
+  - Assets/ithappy/Interior/Meshes/prop/prop_018.fbx
+  - Assets/ithappy/Interior/Meshes/flower/flower_010.fbx
+  - Assets/ithappy/Interior/Meshes/flower/flower_024.fbx
+  - Assets/ithappy/Interior/Meshes/shelf/shelf_051.fbx
+  - Assets/ithappy/Interior/Meshes/electronics/electronics_035.fbx
+  - Assets/ithappy/Interior/Meshes/lamp/lamp_030.fbx
+  modifiedAssetPaddingHash: d6a958ff797e93638c67e2a89550cf35c04dfff095c2a693567e9363695031eeb4c2a693ecc124913c4efff01067e2a8af5634b7f1f23a066209ecc0d7c2a693194efff0fa4dfff08c67e2a8353fd3d904c5d890cec12491194efff0af5634b7be398033abdb894b9c09ecc00da3dddecd5634b73ec5d8907e4dfff0fa4dfff03c4efff01067e2a8

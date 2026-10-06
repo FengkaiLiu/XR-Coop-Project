@@ -1,0 +1,193 @@
+{
+  "track_id": "avril-lavigne-innocence",
+  "audio_file": "Avril Lavigne - Innocence.mp3",
+  "track_info": {
+    "name": "Innocence",
+    "artist": "Avril Lavigne",
+    "album_art": "MoodData/art/avril-lavigne-innocence",
+    "duration_ms": 233000
+  },
+  "mood": {
+    "primary": "serene",
+    "secondary": "ethereal",
+    "tags": [
+      "serene",
+      "ethereal",
+      "nostalgic",
+      "intimate",
+      "bright"
+    ],
+    "color_palette": [
+      "#FFFACD",
+      "#E0F7FA",
+      "#FFD1DC",
+      "#FFFFFF"
+    ],
+    "atmosphere": "sun-drenched morning meadow",
+    "emotional_tone": "dreamy",
+    "energy_level": "medium",
+    "color_reasoning": "Lemon chiffon and soft whites represent the clarity and awakening mentioned in the lyrics, while hints of pale pink and sky blue evoke a sense of youthful, delicate innocence and emotional safety.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 8080,
+        "text": "Waking up, I see that everything is okay"
+      },
+      {
+        "time_ms": 11930,
+        "text": "The first time in my life and now it's so great"
+      },
+      {
+        "time_ms": 15130,
+        "text": "Slowing down, I look around and I am so amazed"
+      },
+      {
+        "time_ms": 19180,
+        "text": "I think about the little things that make life great"
+      },
+      {
+        "time_ms": 22960,
+        "text": "I wouldn't change a thing about it"
+      },
+      {
+        "time_ms": 27720,
+        "text": "This is the best feeling"
+      },
+      {
+        "time_ms": 35670,
+        "text": "This innocence is brilliant, I hope that it will stay"
+      },
+      {
+        "time_ms": 43720,
+        "text": "This moment is perfect"
+      },
+      {
+        "time_ms": 47760,
+        "text": "Please don't go away, I need you now"
+      },
+      {
+        "time_ms": 55800,
+        "text": "And I'll hold on to it, don't you let it pass you by"
+      },
+      {
+        "time_ms": 70670,
+        "text": "I found a place so safe, not a single tear"
+      },
+      {
+        "time_ms": 75030,
+        "text": "The first time in my life and now it's so clear"
+      },
+      {
+        "time_ms": 78770,
+        "text": "Feel calm I belong, I'm so happy here"
+      },
+      {
+        "time_ms": 82060,
+        "text": "It's so strong and now I let myself be sincere"
+      },
+      {
+        "time_ms": 86310,
+        "text": "I wouldn't change a thing about it"
+      },
+      {
+        "time_ms": 91789,
+        "text": "This is the best feeling"
+      },
+      {
+        "time_ms": 98430,
+        "text": "This innocence is brilliant, I hope that it will stay"
+      },
+      {
+        "time_ms": 106320,
+        "text": "This moment is perfect"
+      },
+      {
+        "time_ms": 110370,
+        "text": "Please don't go away, I need you now"
+      },
+      {
+        "time_ms": 118220,
+        "text": "And I'll hold on to it, don't you let it pass you by"
+      },
+      {
+        "time_ms": 126630,
+        "text": "It's the state of bliss you think you're dreaming"
+      },
+      {
+        "time_ms": 129740,
+        "text": "It's the happiness inside that you're feeling"
+      },
+      {
+        "time_ms": 133130,
+        "text": "It's so beautiful it makes you wanna cry"
+      },
+      {
+        "time_ms": 139400,
+        "text": "It's the state of bliss you think you're dreaming"
+      },
+      {
+        "time_ms": 143200,
+        "text": "It's the happiness inside that you're feeling"
+      },
+      {
+        "time_ms": 146890,
+        "text": "It's so beautiful it makes you wanna cry"
+      },
+      {
+        "time_ms": 152660,
+        "text": "It's so beautiful it makes you wanna cry"
+      },
+      {
+        "time_ms": 157360,
+        "text": "This innocence is brilliant"
+      },
+      {
+        "time_ms": 162740,
+        "text": "It makes you want to cry"
+      },
+      {
+        "time_ms": 164740,
+        "text": "This innocence is brilliant"
+      },
+      {
+        "time_ms": 167740,
+        "text": "Please don't go away"
+      },
+      {
+        "time_ms": 171120,
+        "text": "'Cause I need you now and I'll hold on to it"
+      },
+      {
+        "time_ms": 180170,
+        "text": "Don't you let it pass you by (it's so beautiful)"
+      },
+      {
+        "time_ms": 184880,
+        "text": "This innocence is brilliant (it's so beautiful, it's so beautiful)"
+      },
+      {
+        "time_ms": 189500,
+        "text": "I hope that it will stay"
+      },
+      {
+        "time_ms": 192540,
+        "text": "This moment is perfect"
+      },
+      {
+        "time_ms": 195900,
+        "text": "Please don't go away"
+      },
+      {
+        "time_ms": 198970,
+        "text": "I need you now (it makes me wanna cry)"
+      },
+      {
+        "time_ms": 205060,
+        "text": "And I'll hold on to it, don't you let it pass you by"
+      }
+    ]
+  }
+}

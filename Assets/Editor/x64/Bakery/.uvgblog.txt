@@ -1,0 +1,408 @@
+Done
+initShaders done
+initScene done
+Done
+Done
+initShaders done
+initScene done
+Done
+Done
+2026-3-12
+Rendering UV GBuffer for MainProj_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA2 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA3 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA1.lz4" 2 0 1 0
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_0" 68 0 0 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_0_0_0" 68 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_0" 68 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_3" 68 0 3 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_3_0_0" 68 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_3" 68 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_3" 68 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_2" 68 0 2 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_2_0_0" 68 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_2" 68 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_2" 68 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_1" 68 0 1 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_1_0_0" 68 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_1" 68 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM00.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA30.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA20.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA10.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM01.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA31.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA21.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA11.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM02.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA32.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA22.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA12.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM03.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA33.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA23.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA13.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_final" 68 16 0 "gi_MainProj_LM04.bin" "MainProj_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_final" 68 16 3 "gi_MainProj_LMA34.bin" "MainProj_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_final" 68 16 2 "gi_MainProj_LMA24.bin" "MainProj_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_final" 68 16 1 "gi_MainProj_LMA14.bin" "MainProj_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "0" "MainProj_LM0_final_HDR.lz4" "MainProj_LM0_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "3" "MainProj_LMA3_final_HDR.lz4" "MainProj_LMA3_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "2" "MainProj_LMA2_final_HDR.lz4" "MainProj_LMA2_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "1" "MainProj_LMA1_final_HDR.lz4" "MainProj_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LM0_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA3_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA3_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA2_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA2_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA1_dir.tga" 
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\PC\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainProj_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA2 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA3 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LM0.lz4" 2 0 0 0
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_1" 68 0 1 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_1_0_0" 68 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_1" 68 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_3" 68 0 3 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_3_0_0" 68 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_3" 68 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_3" 68 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_2" 68 0 2 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_2_0_0" 68 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_2" 68 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_2" 68 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_0" 68 0 0 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_0_0_0" 68 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_0" 68 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA10.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA30.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA20.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM00.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA11.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA31.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA21.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM01.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA12.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA32.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA22.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM02.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA13.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA33.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA23.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM03.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_final" 68 16 1 "gi_MainProj_LMA14.bin" "MainProj_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_final" 68 16 3 "gi_MainProj_LMA34.bin" "MainProj_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_final" 68 16 2 "gi_MainProj_LMA24.bin" "MainProj_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_final" 68 16 0 "gi_MainProj_LM04.bin" "MainProj_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "1" "MainProj_LMA1_final_HDR.lz4" "MainProj_LMA1_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "3" "MainProj_LMA3_final_HDR.lz4" "MainProj_LMA3_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "2" "MainProj_LMA2_final_HDR.lz4" "MainProj_LMA2_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "0" "MainProj_LM0_final_HDR.lz4" "MainProj_LM0_final_Dir.lz4
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA1_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA3_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA3_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA2_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA2_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LM0_dir.tga" 
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainProj_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA2 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA3 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 512
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX arealightprobesh "C:\Users\PC\AppData\Local\Temp\frender" "light_1_4" 1924 0 4 lights0.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_4_0_0" 1924 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX skyprobesh "C:\Users\PC\AppData\Local\Temp\frender" "light_2_4" 1924 0 4 sky0.bin
+Running ftraceRTX sunprobesh "C:\Users\PC\AppData\Local\Temp\frender" "light_3_4" 1924 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "probes" 4 0 4 comp_4.bin
+Running ftraceRTX texgiprobesh "C:\Users\PC\AppData\Local\Temp\frender" "probes_final" 1924 16 4 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\PC\AppData\Local\Temp\frender" "probes_final_" 4 0 4 shcomp_4.bin
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\PC\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Running ftraceRTX.exe interactive "C:\Users\PC\AppData\Local\Temp\frender" a 4 0 0 preview.bin
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainProj_LM0 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA1 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA2 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainProj_LMA3 51
+RGBA32F...RGBA8...R8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\PC\AppData\Local\Temp\frender" "uvpos_MainProj_LM0.lz4" 2 0 0 0
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_2" 68 0 2 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_2_0_0" 68 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_2" 68 0 2 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_2" 68 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_3" 68 0 3 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_3_0_0" 68 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_3" 68 0 3 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_3" 68 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_1" 68 0 1 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_1_0_0" 68 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_1" 68 0 1 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_1" 68 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftraceRTX arealightdir "C:\Users\PC\AppData\Local\Temp\frender" "light_1_0" 68 0 0 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\PC\AppData\Local\Temp\frender" "PointBatch_0_0_0" 68 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX skydir "C:\Users\PC\AppData\Local\Temp\frender" "light_2_0" 68 0 0 sky0.bin
+Running ftraceRTX sun "C:\Users\PC\AppData\Local\Temp\frender" "light_3_0" 68 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA20.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA30.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA10.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM00.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA21.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA31.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA11.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM01.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA22.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA32.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA12.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM02.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_diffuse" 4 16 2 "gi_MainProj_LMA23.bin" "MainProj_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_diffuse" 4 16 3 "gi_MainProj_LMA33.bin" "MainProj_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_diffuse" 4 16 1 "gi_MainProj_LMA13.bin" "MainProj_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_diffuse" 4 16 0 "gi_MainProj_LM03.bin" "MainProj_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA2_final" 68 16 2 "gi_MainProj_LMA24.bin" "MainProj_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA3_final" 68 16 3 "gi_MainProj_LMA34.bin" "MainProj_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LMA1_final" 68 16 1 "gi_MainProj_LMA14.bin" "MainProj_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\PC\AppData\Local\Temp\frender" "MainProj_LM0_final" 68 16 0 "gi_MainProj_LM04.bin" "MainProj_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "2" "MainProj_LMA2_final_HDR.lz4" "MainProj_LMA2_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "3" "MainProj_LMA3_final_HDR.lz4" "MainProj_LMA3_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "1" "MainProj_LMA1_final_HDR.lz4" "MainProj_LMA1_final_Dir.lz4
+Running denoiserOIDN D "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" 1024 0
+Running denoiserOIDN c "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\PC\AppData\Local\Temp\frender" "0" "MainProj_LM0_final_HDR.lz4" "MainProj_LM0_final_Dir.lz4
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA2_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA2_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA2_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA3_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA3_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA3_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA1_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LMA1_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LMA1_dir.tga" 
+Running halffloat2hdr "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_HDR.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LM0_final.hdr" 1024
+Running rgba2tga "C:\Users\PC\AppData\Local\Temp\frender/MainProj_LM0_final_Dir.lz4" "C:/Users/PC/AppData/Local/MetaXR/VRROOMProj/Assets/Scenes/MainProj/MainProj_LM0_dir.tga" 
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+Total cache size 267161684
+Total cache size after purge 267161684
+abort_threads: Failed aborting id: 0000000000008A70, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000008A70, mono_thread_manage will ignore it
+
+[usbmuxd] Stop listen thread
+[usbmuxd] Listen thread exiting

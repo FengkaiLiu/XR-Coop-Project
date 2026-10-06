@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Music Room — Demo</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, #a855f7, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle { color: #888; margin-bottom: 40px; }
+
+        /* Steps */
+        .step {
+            background: #12122a;
+            border: 1px solid #2a2a4a;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            transition: opacity 0.3s;
+        }
+        .step.disabled { opacity: 0.4; pointer-events: none; }
+        .step h2 {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            color: #a855f7;
+        }
+        .step-badge {
+            display: inline-block;
+            background: #a855f7;
+            color: white;
+            width: 28px; height: 28px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            font-size: 0.85em;
+            font-weight: 700;
+            margin-right: 8px;
+        }
+        .step.done { border-color: #22c55e; }
+        .step.done .step-badge { background: #22c55e; }
+
+        /* Inputs & Buttons */
+        input {
+            background: #1a1a3a;
+            border: 1px solid #3a3a5a;
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 1em;
+            width: 200px;
+            margin-right: 8px;
+        }
+        input::placeholder { color: #666; }
+        button {
+            background: linear-gradient(135deg, #a855f7, #7c3aed);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+        button:hover { transform: scale(1.03); }
+        button:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        .btn-spotify {
+            background: linear-gradient(135deg, #1DB954, #1aa34a);
+            font-size: 1.05em;
+            padding: 12px 28px;
+        }
+
+        /* Status */
+        .status {
+            margin-top: 10px;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9em;
+            display: none;
+        }
+        .status.success { display: block; background: #0a2a1a; color: #22c55e; border: 1px solid #22c55e33; }
+        .status.error { display: block; background: #2a0a0a; color: #ef4444; border: 1px solid #ef444433; }
+
+        /* Track list */
+        .tracks { margin-top: 16px; }
+        .track {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 12px;
+            background: #1a1a3a;
+            border: 1px solid #2a2a4a;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .track:hover { border-color: #a855f7; background: #1f1f40; }
+        .track img { width: 48px; height: 48px; border-radius: 6px; }
+        .track-info { flex: 1; }
+        .track-name { font-weight: 600; }
+        .track-artist { color: #888; font-size: 0.9em; }
+        .track-btn {
+            background: #2a2a4a;
+            padding: 6px 14px;
+            font-size: 0.85em;
+            border-radius: 6px;
+        }
+
+        /* Analysis result */
+        .analysis {
+            margin-top: 20px;
+            background: #1a1a3a;
+            border: 1px solid #2a2a4a;
+            border-radius: 12px;
+            padding: 20px;
+            display: none;
+        }
+        .analysis.visible { display: block; }
+        .analysis h3 { color: #a855f7; margin-bottom: 12px; }
+        .mood-tags { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+        .tag {
+            background: #2a2a4a;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+        .color-palette {
+            display: flex;
+            gap: 6px;
+            margin: 10px 0;
+        }
+        .color-swatch {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            border: 1px solid #3a3a5a;
+        }
+        .lyrics-preview {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 12px;
+            padding: 12px;
+            background: #12122a;
+            border-radius: 8px;
+            font-size: 0.9em;
+            line-height: 1.8;
+        }
+        .lyric-line { color: #aaa; }
+        .lyric-time { color: #a855f7; font-size: 0.8em; margin-right: 8px; }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 8px;
+            margin: 10px 0;
+        }
+        .feature {
+            background: #12122a;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.85em;
+        }
+        .feature-label { color: #888; }
+        .feature-value { font-weight: 600; color: #06b6d4; }
+        .loading { color: #888; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>VR Music Room</h1>
+        <p class="subtitle">Register → Connect Spotify → Pick a song → See the analysis</p>
+
+        <!-- STEP 1: Auth -->
+        <div class="step" id="step1">
+            <h2><span class="step-badge">1</span> Register or Login</h2>
+            <div>
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="register()">Register</button>
+                <button onclick="login()" style="background: #2a2a4a; margin-left: 4px;">Login</button>
+            </div>
+            <div class="status" id="auth-status"></div>
+        </div>
+
+        <!-- STEP 2: Spotify -->
+        <div class="step disabled" id="step2">
+            <h2><span class="step-badge">2</span> Connect Spotify</h2>
+            <button class="btn-spotify" onclick="connectSpotify()">Connect Spotify Account</button>
+            <div class="status" id="spotify-status"></div>
+        </div>
+
+        <!-- STEP 3: Library -->
+        <div class="step disabled" id="step3">
+            <h2><span class="step-badge">3</span> Your Library</h2>
+            <button onclick="loadLibrary()">Load My Songs</button>
+            <div class="tracks" id="tracks-list"></div>
+            <div class="status" id="library-status"></div>
+        </div>
+
+        <!-- STEP 4: Analysis -->
+        <div class="step disabled" id="step4">
+            <h2><span class="step-badge">4</span> Song Analysis</h2>
+            <div class="analysis" id="analysis-result"></div>
+        </div>
+    </div>
+
+    <script>
+        const API = "http://127.0.0.1:8000";
+        let jwtToken = "";
+
+        // Restore state after Spotify redirect
+        window.addEventListener("load", () => {
+            const saved = sessionStorage.getItem("jwt");
+            if (saved) {
+                jwtToken = saved;
+                markDone("step1");
+                enable("step2");
+                showStatus("auth-status", "Logged in (session restored)", "success");
+            }
+
+            // Check if we just came back from Spotify
+            const params = new URLSearchParams(window.location.search);
+            if (params.get("spotify") === "connected" && jwtToken) {
+                showStatus("spotify-status", "Spotify connected!", "success");
+                markDone("step2");
+                enable("step3");
+                // Clean URL
+                window.history.replaceState({}, "", "/demo");
+            }
+        });
+
+        // --- AUTH ---
+        async function register() {
+            const u = document.getElementById("username").value;
+            const p = document.getElementById("password").value;
+            try {
+                const res = await fetch(`${API}/auth/register`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ username: u, password: p }),
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    jwtToken = data.token;
+                    sessionStorage.setItem("jwt", jwtToken);
+                    showStatus("auth-status", `Registered! User: ${data.user_id}`, "success");
+                    markDone("step1");
+                    enable("step2");
+                } else {
+                    showStatus("auth-status", data.detail || "Registration failed", "error");
+                }
+            } catch (err) {
+                showStatus("auth-status", "Server not running?", "error");
+            }
+        }
+
+        async function login() {
+            const u = document.getElementById("username").value;
+            const p = document.getElementById("password").value;
+            try {
+                const res = await fetch(`${API}/auth/login`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ username: u, password: p }),
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    jwtToken = data.token;
+                    sessionStorage.setItem("jwt", jwtToken);
+                    showStatus("auth-status", `Logged in! Welcome back.`, "success");
+                    markDone("step1");
+                    enable("step2");
+                    enable("step3");
+                } else {
+                    showStatus("auth-status", data.detail || "Login failed", "error");
+                }
+            } catch (err) {
+                showStatus("auth-status", "Server not running?", "error");
+            }
+        }
+
+        // --- SPOTIFY ---
+        function connectSpotify() {
+            // Store token so we can use it after redirect back
+            sessionStorage.setItem("jwt", jwtToken);
+            // Redirect in same window instead of popup (more reliable)
+            window.location.href = `${API}/spotify/connect?token=${jwtToken}`;
+        }
+
+        // --- LIBRARY ---
+        async function loadLibrary() {
+            showStatus("library-status", "Loading songs...", "success");
+            try {
+                const res = await fetch(`${API}/spotify/library`, {
+                    headers: { "Authorization": `Bearer ${jwtToken}` },
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    renderTracks(data.tracks);
+                    hideStatus("library-status");
+                    enable("step4");
+                } else {
+                    showStatus("library-status", data.detail || "Failed to load library", "error");
+                }
+            } catch (err) {
+                showStatus("library-status", "Error fetching library", "error");
+            }
+        }
+
+        function renderTracks(tracks) {
+            const list = document.getElementById("tracks-list");
+            list.innerHTML = tracks.map(t => `
+                <div class="track" onclick="analyzeTrack('${t.spotify_id}', '${t.name.replace(/'/g, "\\'")}')">
+                    <img src="${t.album_art || ''}" alt="">
+                    <div class="track-info">
+                        <div class="track-name">${t.name}</div>
+                        <div class="track-artist">${t.artist}</div>
+                    </div>
+                    <button class="track-btn">Analyze</button>
+                </div>
+            `).join("");
+        }
+
+        // --- ANALYSIS ---
+        async function analyzeTrack(trackId, trackName) {
+            const panel = document.getElementById("analysis-result");
+            panel.className = "analysis visible";
+            panel.innerHTML = `<p class="loading">Analyzing "${trackName}"...</p>`;
+            document.getElementById("step4").scrollIntoView({ behavior: "smooth" });
+
+            try {
+                const res = await fetch(`${API}/song/analyze/${trackId}`, {
+                    headers: { "Authorization": `Bearer ${jwtToken}` },
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    renderAnalysis(data, panel);
+                } else {
+                    panel.innerHTML = `<p style="color:#ef4444;">${data.detail || "Analysis failed"}</p>`;
+                }
+            } catch (err) {
+                panel.innerHTML = `<p style="color:#ef4444;">Error analyzing track</p>`;
+            }
+        }
+
+        function renderAnalysis(data, panel) {
+            const mood = data.mood;
+            const feat = data.analysis;
+            const lyrics = data.lyrics;
+            const info = data.track_info;
+
+            const featuresHtml = Object.entries(feat)
+                .filter(([k]) => !["key", "mode"].includes(k))
+                .map(([k, v]) => `
+                    <div class="feature">
+                        <div class="feature-label">${k}</div>
+                        <div class="feature-value">${typeof v === "number" ? v.toFixed(2) : v}</div>
+                    </div>
+                `).join("");
+
+            const tagsHtml = mood.tags.map(t => `<span class="tag">${t}</span>`).join("");
+
+            const colorsHtml = mood.color_palette.map(c =>
+                `<div class="color-swatch" style="background:${c}" title="${c}"></div>`
+            ).join("");
+
+            const lyricsHtml = lyrics.lines.length > 0
+                ? lyrics.lines.map(l => `
+                    <div class="lyric-line">
+                        <span class="lyric-time">${formatMs(l.time_ms)}</span>${l.text}
+                    </div>
+                `).join("")
+                : "<p style='color:#666;'>No lyrics found</p>";
+
+            const lastfmHtml = data.lastfm_tags && data.lastfm_tags.length > 0
+                ? data.lastfm_tags.map(t => `<span class="tag" style="background:#1a3a2a;color:#22c55e;">${t}</span>`).join("")
+                : "<span style='color:#666;'>none found</span>";
+
+            panel.innerHTML = `
+                <h3>${info.name} — ${info.artist}</h3>
+                <p style="color:#888; margin-bottom:4px;">Spotify Genres: ${info.genres.join(", ") || "unknown"}</p>
+                <p style="color:#888; margin-bottom:4px;">Last.fm Tags: </p>
+                <div class="mood-tags" style="margin-top:4px;margin-bottom:12px;">${lastfmHtml}</div>
+
+                <h4 style="margin-top:16px; color:#06b6d4;">Audio Features</h4>
+                <div class="features-grid">${featuresHtml}</div>
+
+                <h4 style="margin-top:16px; color:#06b6d4;">Mood</h4>
+                <p>Primary: <strong>${mood.primary}</strong> | Secondary: <strong>${mood.secondary}</strong></p>
+                ${mood.emotional_tone ? `<p style="color:#aaa;">Emotional tone: <strong>${mood.emotional_tone}</strong> | Energy: <strong>${mood.energy_level}</strong></p>` : ""}
+                ${mood.atmosphere ? `<p style="color:#e0c3fc; margin-top:4px;">Atmosphere: <strong>${mood.atmosphere}</strong></p>` : ""}
+                <div class="mood-tags">${tagsHtml}</div>
+
+                <h4 style="margin-top:16px; color:#06b6d4;">Color Palette</h4>
+                ${mood.color_reasoning ? `<p style="color:#888; font-size:0.85em; margin-bottom:6px;">${mood.color_reasoning}</p>` : ""}
+                <div class="color-palette">${colorsHtml}</div>
+
+                <h4 style="margin-top:16px; color:#06b6d4;">Synced Lyrics ${lyrics.synced ? "✓" : "(unsynced)"}</h4>
+                <div class="lyrics-preview">${lyricsHtml}</div>
+            `;
+        }
+
+        function formatMs(ms) {
+            const m = Math.floor(ms / 60000);
+            const s = Math.floor((ms % 60000) / 1000);
+            return `${m}:${s.toString().padStart(2, "0")}`;
+        }
+
+        // --- HELPERS ---
+        function showStatus(id, msg, type) {
+            const el = document.getElementById(id);
+            el.textContent = msg;
+            el.className = `status ${type}`;
+        }
+        function hideStatus(id) {
+            document.getElementById(id).className = "status";
+        }
+        function enable(id) {
+            document.getElementById(id).classList.remove("disabled");
+        }
+        function markDone(id) {
+            document.getElementById(id).classList.add("done");
+        }
+    </script>
+</body>
+</html>

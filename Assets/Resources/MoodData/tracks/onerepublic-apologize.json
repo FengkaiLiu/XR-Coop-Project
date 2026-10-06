@@ -1,0 +1,145 @@
+{
+  "track_id": "onerepublic-apologize",
+  "audio_file": "OneRepublic - Apologize.mp3",
+  "track_info": {
+    "name": "Apologize",
+    "artist": "OneRepublic",
+    "album_art": "MoodData/art/onerepublic-apologize",
+    "duration_ms": 208000
+  },
+  "mood": {
+    "primary": "Heartbreak",
+    "secondary": "cinematic",
+    "tags": [
+      "melancholy",
+      "cinematic",
+      "isolated",
+      "introspective",
+      "broken"
+    ],
+    "color_palette": [
+      "#1A2A6C",
+      "#4B0082",
+      "#B22222",
+      "#E0E0E0"
+    ],
+    "atmosphere": "shattered glass cathedral",
+    "emotional_tone": "melancholy",
+    "energy_level": "medium",
+    "color_reasoning": "The deep blues and purples represent the sorrow and the 'turning blue' lyric, while the sharp crimson reflects the 'fire red' of past love, contrasted against a cold, sterile grey to emphasize the feeling of abandonment.",
+    "source": "ai"
+  },
+  "lyrics": {
+    "synced": true,
+    "lines": [
+      {
+        "time_ms": 32710,
+        "text": "I'm holding on your rope"
+      },
+      {
+        "time_ms": 34450,
+        "text": "Got me ten feet off the ground"
+      },
+      {
+        "time_ms": 40150,
+        "text": "And I'm hearing what you say"
+      },
+      {
+        "time_ms": 42530,
+        "text": "But I just can't make a sound"
+      },
+      {
+        "time_ms": 48780,
+        "text": "You tell me that you need me"
+      },
+      {
+        "time_ms": 51240,
+        "text": "Then you go and cut me down, but wait"
+      },
+      {
+        "time_ms": 57390,
+        "text": "You tell me that you're sorry"
+      },
+      {
+        "time_ms": 59220,
+        "text": "Didn't think I'd turn around and say"
+      },
+      {
+        "time_ms": 64349,
+        "text": "That it's too late to apologize, it's too late"
+      },
+      {
+        "time_ms": 72880,
+        "text": "I said it's too late to apologize, it's too late"
+      },
+      {
+        "time_ms": 81050,
+        "text": "Too late, oh"
+      },
+      {
+        "time_ms": 89630,
+        "text": "I'd take another chance, take a fall"
+      },
+      {
+        "time_ms": 92430,
+        "text": "Take a shot for you"
+      },
+      {
+        "time_ms": 97680,
+        "text": "And I need you like a heart needs a beat"
+      },
+      {
+        "time_ms": 100350,
+        "text": "But it's nothing new, yeah yeah"
+      },
+      {
+        "time_ms": 105850,
+        "text": "I loved you with a fire red, now it's turning blue"
+      },
+      {
+        "time_ms": 111770,
+        "text": "And you say sorry like the angel"
+      },
+      {
+        "time_ms": 116420,
+        "text": "Heaven let me think was you"
+      },
+      {
+        "time_ms": 119610,
+        "text": "But I'm afraid"
+      },
+      {
+        "time_ms": 122110,
+        "text": "It's too late to apologize, it's too late"
+      },
+      {
+        "time_ms": 129740,
+        "text": "I said it's too late to apologize, it's too late, whoa"
+      },
+      {
+        "time_ms": 156460,
+        "text": "It's too late to apologize, it's too late"
+      },
+      {
+        "time_ms": 164420,
+        "text": "I said it's too late to apologize, it's too late"
+      },
+      {
+        "time_ms": 172420,
+        "text": "I said it's too late to apologize, yeah, too late"
+      },
+      {
+        "time_ms": 180330,
+        "text": "I said it's too late to apologize, yeah, too late"
+      },
+      {
+        "time_ms": 188710,
+        "text": "I'm holding on your rope"
+      },
+      {
+        "time_ms": 191170,
+        "text": "Got me ten feet off the ground"
+      }
+    ]
+  }
+}
